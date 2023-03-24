@@ -1,0 +1,41 @@
+
+
+    <div class="container">
+         <div class="result">
+            {{display}}
+        </div>
+        <div class="buttons">
+
+            <button class="item item1" (click)="click(' mod ')">%</button>
+            <button class="item item1" (click)="clr()" style="width:134px;border-radius: 30%;">CE</button>
+            <button class="item item1" (click)="del()">DEL</button>
+
+            <button class="item item1" (click)="click('inv( ')">1/x</button>
+            <button class="item item1" (click)="click('pow^2( ')">x<sup>2</sup></button>
+            <button class="item item1" (click)="click('sqrt( ')">&radic;</button>
+            <button class="item sign" (click)="click(' div ')">/</button>
+
+            <button class="item numbers" (click)="click('7')">7</button>
+            <button class="item numbers" (click)="click('8')">8</button>
+            <button class="item numbers" (click)="click('9')">9</button>
+            <button class="item sign" (click)="click(' x ')">&#215;</button>
+
+            <button class="item numbers" (click)="click('4')">4</button>
+            <button class="item numbers" (click)="click('5')">5</button>
+            <button class="item numbers" (click)="click('6')">6</button>
+            <button class="item sign" (click)="click(' - ')">&#8722;</button>
+
+            <button class="item numbers" (click)="click('1')">1</button>
+            <button class="item numbers" (click)="click('2')">2</button>
+            <button class="item numbers" (click)="click('3')">3</button>
+            <button class="item sign" (click)="click(' + ')">+</button>
+
+            <button class="item item1" (click)="click('-')">+/-</button>
+            <button class="item numbers" (click)="click('0')">0</button>
+            <button class="item numbers" (click)="click('.')">.</button>
+            <button class="item sign" (click)="eql()">=</button>
+            
+        </div>
+
+    </div>
+
